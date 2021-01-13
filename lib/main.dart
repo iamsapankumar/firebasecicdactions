@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(MyApp());
 }
@@ -23,7 +22,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Firebase Hosting.'),
+        title: Text('Flutter Firebase Hosting...'),
       ),
       body: Center(
         child: Text('Firebase '),
